@@ -1,0 +1,269 @@
+Collections:
+  - Title: "CS 421: Programming Languages and Compilers"
+    Curator:  Sam Kamin
+    URL: https://courses.engr.illinois.edu/cs421/sp2012/project/
+  - Title: Great Works in Programming Languages
+    Curator: Benjamin C. Pierce
+    URL: https://www.cis.upenn.edu/~bcpierce/courses/670Fall04/GreatWorksInPL.shtml
+Papers:
+  - Title: A Core Calculus for Documents
+    URL: https://cs.brown.edu/~sk/Publications/Papers/Published/ck-core-calc-doc-lambda-ultimate-doc/paper.pdf
+    Authors: 
+      - Will Crichton
+      - Shriram Krishnamurthi
+    Published: 12-28-23
+    Abstract: >
+      Passive documents and active programs now widely comingle. Document
+      languages include Turing-complete programming elements, and programming
+      languages include sophisticated document notations. However, there are no
+      formal foundations that model these languages. This matters because the
+      interaction between document and program can be subtle and error-prone.
+      In this paper we describe several such problems, then taxonomize and
+      formalize document languages as levels of a document calculus. We employ
+      the calculus as a foundation for implementing complex features such as
+      reactivity, as well as for proving theorems about the boundary of content
+      and computation. We intend for the document calculus to provide
+      a theoretical basis for new document languages, and to assist designers
+      in cleaning up the unsavory corners of existing languages.
+  - Title: "HolPy: Interactive Theorem Proving in Python"
+    URL: https://arxiv.org/abs/1905.05970
+    Authors: Bohua Zhuan
+    Published: 05-15-19
+    Abstract: >
+      HolPy is an interactive theorem proving system implemented in Python. It
+      uses higher-order logic as the logical foundation. Its main features
+      include a pervasive use of macros in producing, checking, and storing
+      proofs, a JSON-based format for theories, and an API for implementing
+      proof automation and other extensions in Python. A point-andclick-based
+      user interface is implemented for general-purpose theorem proving. We
+      describe the main design decisions of HolPy, current applications, and
+      plans for the future.
+  - Title: Functional programming with bananas, lenses, envelopes and barbed wire 
+    URL: https://maartenfokkinga.github.io/utwente/mmf91m.pdf
+    Authors: 
+      - Meijer, E
+      - Fokkinga, M
+      - Patterson, R
+    Published: 1991
+    Abstract: >
+      We develop a calculus for lazy functional programming based on recursion
+      operators associated with data type definitions. For these operators we
+      derive various algebraic laws that are useful in deriving and
+      manipulating programs. We shall show that all example Functions in Bird
+      and Wadler's "Introduction to Functional Programming" can be expressed
+      using these operators.
+  - Title:
+    URL: https://arxiv.org/abs/2302.02382
+    Published: 05-02-2023
+    Authors:
+      - Frank Emrich
+      - Jera Hensel
+      - Jürgen Giesl
+    Abstract: >
+      Termination analysis of C programs is a challenging task. On the one
+      hand, the analysis needs to be precise enough to draw meaningful
+      conclusions. On the other hand, relevant programs in practice are
+      large and require substantial abstraction. It is this inherent
+      trade-off that is the crux of the problem. In this work, we present
+      AProVE, a tool that uses symbolic execution to analyze termination of
+      memory-manipulating C programs. While traditionally, AProVE's focus
+      was on the preciseness of the analysis, we describe how we adapted
+      our approach towards a modular analysis. Due to this adaption, our
+      approach can now also handle recursive programs. Moreover, we present
+      further performance improvements which we developed to make AProVE
+      scale to large programs. 
+  - Title: Well-founded recursion done right
+    URL: https://inria.hal.science/hal-04356563/document
+    Authors: Xavier Leroy
+    Published: 12-20-23
+    Abstract: >
+      Several Coq libraries and extensions support the definition of
+      non-structural recursive functions using well-founded or- derings for
+      termination. After pointing out some drawbacks of these existing
+      approaches, we advocate going back to the basics and defining recursive
+      functions by explicit structural induction on a proof of accessibility of
+      the principal recursive argument.
+  - Title: HOL Light QE
+    URL: https://arxiv.org/abs/1802.00405
+    Published: 02-02-18
+    Authors: 
+      - Jacques Carette
+      - William M. Farmer
+      - Patrick Laskowski
+    Abstract: >
+      We are interested in algorithms that manipulate mathematical expressions
+      in mathematically meaningful ways. Expressions are syntactic, but most
+      logics do not allow one to discuss syntax. CTTqe is a version of Church's
+      type theory that includes quotation and evaluation operators, akin to
+      quote and eval in the Lisp programming language. Since the HOL logic is
+      also a version of Church's type theory, we decided to add quotation and
+      evaluation to HOL Light to demonstrate the implementability of CTTqe and
+      the benefits of having quotation and evaluation in a proof assistant. The
+      resulting system is called HOL Light QE. Here we document the design of
+      HOL Light QE and the challenges that needed to be overcome. The resulting
+      implementation is freely available. 
+  - Title: NeurIPS Tutorial on Machine Learning for Theorem Proving
+    Authors: 
+      - First, Emily 
+      - Jiang, Albert 
+      - Yang, Kaiyu
+    Published: 2023
+    URL: https://machine-learning-for-theorem-proving.github.io/
+    Abstract: >
+      This tutorial aims to bridge this gap and make theorem proving accessible
+      to researchers with a general machine learning background. To that end,
+      our presentation will contextualize theorem proving from a machine
+      learning perspective and demonstrate how to develop LLMs for theorem
+      proving, using newly available open-source tools that provides interfaces
+      to proof assistants without requiring in-depth knowledge of their
+      internals. Furthermore, we will cover advanced topics and open problems
+      in learning-based theorem proving, including its synergies with natural
+      language processing and software verification.
+  - Title: A Practical Formalization of Monadic Equational Reasoning in Dependent-type Theory
+    URL: https://arxiv.org/abs/2312.06103
+    Authors:
+      - Reynald Affeldt
+      - Jacques Garrigue
+      - Takafumi Saikawa
+    Published: 12-11-23
+    Abstract: >
+      One can perform equational reasoning about computational effects with
+      a purely functional programming language thanks to monads. Even though
+      equational reasoning for effectful programs is desirable, it is not yet
+      mainstream. This is partly because it is difficult to maintain
+      pencil-and-paper proofs of large examples. We propose a formalization of
+      a hierarchy of effects using monads in the Coq proof assistant that makes
+      monadic equational reasoning practical. Our main idea is to formalize the
+      hierarchy of effects and algebraic laws as interfaces like it is done
+      when formalizing hierarchy of algebras in dependent type theory. Thanks
+      to this approach, we clearly separate equational laws from models. We can
+      then take advantage of the sophisticated rewriting capabilities of Coq
+      and build libraries of lemmas to achieve concise proofs of programs. We
+      can also use the resulting framework to leverage on Coq's mathematical
+      theories and formalize models of monads. In this article, we explain how
+      we formalize a rich hierarchy of effects (nondeterminism, state,
+      probability, etc.), how we mechanize examples of monadic equational
+      reasoning from the literature, and how we apply our framework to the
+      design of equational laws for a subset of ML with references.
+  - Title: History of Interactive Theorem Proving
+    URL: https://www.cl.cam.ac.uk/~jrh13/papers/joerg.pdf
+    Authors:
+      - John Harrison
+      - Josef Urban 
+      - Freek Wiedijk
+    Published: 2014
+    Abstract: >
+       This book chapter gives a historical overview of the whole field of
+       interactive theorem proving, with particular emphasis on the systems
+       that introduced some of the key ideas that are still important. 
+  - Title: "Piton: A Verified Assembly Level Language"
+    URL: https://www.cs.utexas.edu/ftp/boyer/cli-reports/022.pdf
+    Authors: J Strother Moore
+    Published: 1988
+    Abstract: >
+      This report describes a programming language, its implementation on
+      a microprocessor via a compiler, an assembler, and a linker, and the
+      mechanically checked proof of the correctness of the implementation. The
+      programming language, called Piton, is a high-level assembly language
+      designed for verified applica- tions and as the target language for
+      high-level language compilers. It provides execute-only programs,
+      recursive subroutine call and return, stack based parameter passing,
+      local variables, global variables and arrays, a user-visible stack for
+      intermediate results, and seven abstract data types including integers,
+      data addresses, program addresses and subroutine names. Piton is formally
+      specified by an interpreter written for it in the computational logic of
+      Boyer and Moore. Piton has been implemented on the FM8502, a general
+      purpose microprocessor whose gate-level design has been mechanically
+      proved to implement its machine code interpreter. The FM8502
+      implementation of Piton is via a function in the Boyer-Moore logic which
+      maps a Piton initial state into an FM8502 binary core image. The
+      compiler, assembler and linker are all defined as functions in the logic.
+      The implementation requires approximately 36K bytes and 1,400 lines of
+      prettyprinted source code in the Pure Lisp-like syntax of the logic. The
+      implementation has been mechanically proved correct. In particular, if
+      a Piton state can be run to completion without error, then the final
+      values of all the global data structures can be ascertained from an
+      inspection of an FM8502 core image obtained by running the core image
+      produced by the compiler, assembler, and linker. Thus, verified Piton
+      programs running on FM8502 can be thought of as having been verified down
+      to the gate level. The report defines Piton, exhibits a Piton program for
+      big number addition and its correctness proof, describes the FM8502
+      implementation of Piton, formalizes the statement of correctness for the
+      implementation, and describes the proof.
+  - Title: Behavioral Consistency of C and Verilog Programs Using Bounded Model Checking
+    URL: http://www.kroening.com/papers/dac2003.pdf
+    Published: 2003
+    Authors: 
+      - Edmund Clarke
+      - Daniel Kroening
+      - Karen Yorav
+    Abstract: >
+      We present an algorithm that checks behavioral consistency be-
+      tween an ANSI-C program and a circuit given in Verilog using
+      Bounded Model Checking. Both the circuit and the program are
+      unwound and translated into a formula that represents behavioral
+      consistency. The formula is then checked using a SAT solver. We
+      are able to translate C programs that include side effects, pointers,
+      dynamic memory allocation, and loops with conditions that cannot
+      be evaluated statically. We describe experimental results on various
+      reactive circuits and programs, including a small processor given in
+      Verilog and its Instruction Set Architecture given in ANSI-C.
+  - Title: A New Implementation Technique for Applicative Languages
+    URL: https://courses.engr.illinois.edu/cs421/sp2012/project/turner-implementation.pdf
+    Authors: Turner, D A
+    Published: 1979
+    Abstract: >
+      It is shown how by using results from combinatory logic an applicative
+      language, such as LISP, can be translated into a form from which all
+      bound variables have been removed. A machine is described which can
+      efficiently execute the resulting code. This implementation is compared
+      with a conventional interpreter and found to have a number of advantages.
+      Of these the most important is that programs which exploit higher order
+      functions to achieve great compactness of expression are executed much
+      more efficiently.
+  - Title: "Proof Pearl: Magic Wand as Frame"
+    Authors:
+      - Qinxiang Cao 
+      - Jiao Tong University 
+      - Shengyi Wang 
+      - Andrew W. Appel 
+    URL: http://arxiv.org/abs/1909.08789
+    Date: 2012
+    Abstract: >
+      Separation logic adds two connectives to assertion languages, separating
+      conjunction ∗ (“star”) and its adjoint, separating implication −∗ (“magic
+      wand”). Comparatively, separating implication is less widely used. This
+      paper demonstrates that by using magic wand to express frames that relate
+      mutable local portions of data structures to global portions, we can
+      exploit its power while proofs are still easily understandable. Many
+      useful separation logic theorems about partial data structures can now be
+      proved by simple automated tactics, which were usually proved by
+      induction. This magic-wand-as-frame technique is especially useful when
+      formalizing the proofs by a high order logic. We verify binary search
+      tree insert in Coq as an example to demonstrate this proof technique. 
+  - Title: Bringing Order to the Separation Logic Jungle
+    Authors: 
+     - Qinxiang Cao
+     - Santiago Cuellar
+     - Andrew W. Appel 
+    URL: https://www.cs.princeton.edu/~appel/papers/bringing-order.pdf
+    Date: 2017
+    Abstract: >
+      Research results from so-called “classical” separation logics are not
+      easily ported to so-called “intuitionistic” separation logics, and vice
+      versa. Basic questions like, “Can the frame rule be proved independently
+      of whether the programming language is garbage-collected?” “Can amortized
+      resource analysis be ported from one separation logic to another?” should
+      be straightforward. But they are not. Proofs done in a particular
+      separation logic are dififcult to generalize. We argue that this
+      limitation is caused by incompatible semantics. For example, emp
+      sometimes holds everywhere and sometimes only on units. In this paper, we
+      introduce a unifying semantics and build a framework that allows to
+      reason parametrically over all separation logics. Many separation
+      algebras in the literature are accompanied, explicitly or implicitly, by
+      a preorder. Our key insight is to axiomatize the interaction between the
+      join relation and the preorder. We prove every separation logic to be
+      sound and complete with respect to this unifying semantics. Further, our
+      framework enables us to generalize the soundness proofs for the frame
+      rule and CSL. It also reveals a new world of meaningful intermediate
+      separation logics between “intuitionistic” and “classical”. 
