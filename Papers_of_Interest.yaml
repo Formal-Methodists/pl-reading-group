@@ -267,3 +267,23 @@ Papers:
       framework enables us to generalize the soundness proofs for the frame
       rule and CSL. It also reveals a new world of meaningful intermediate
       separation logics between “intuitionistic” and “classical”. 
+  - Title: "Metamath Zero: The Cartesian Theorem Prover"
+    URL: https://arxiv.org/abs/1910.10703
+    Author: Mario Carneiro
+    Date: 2019
+    Abstract: >
+      As the usage of theorem prover technology expands, so too does the
+      reliance on correctness of the tools. Metamath Zero is a verification
+      system that aims for simplicity of logic and implementation, without
+      compromising on efficiency of verification. It is formally specified in
+      its own language, and supports a number of translations to and from other
+      proof languages. This paper describes the abstract logic of Metamath
+      Zero, essentially a multi-sorted first order logic, as well as the binary
+      proof format and the way in which it can ensure essentially linear time
+      verification while still being concise and efficient at scale. Metamath
+      Zero currently holds the record for fastest verification of the set.mm
+      Metamath library of proofs in ZFC (including 71 of Wiedijk's 100
+      formalization targets), at less than 200 ms. Ultimately, we intend to use
+      it to verify the correctness of the implementation of the verifier down
+      to binary executable, so it can be used as a root of trust for more
+      complex proof systems. 
