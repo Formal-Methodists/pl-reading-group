@@ -287,3 +287,20 @@ Papers:
       it to verify the correctness of the implementation of the verifier down
       to binary executable, so it can be used as a root of trust for more
       complex proof systems. 
+  - Title: Computational Types from a Logical Perspective
+    URL: https://www.microsoft.com/en-us/research/wp-content/uploads/2016/12/jfp.pdf
+    Author:
+      - Benton PN
+      - Bierman GM
+      - De Paiva VCV
+    Date: 1993
+    Abstract: >
+      Moggi's computational lambda calculus is a metalanguage for denotational
+      semantics which arose from the observation that many di erent notions of
+      computation have the categorical structure of a strong monad on
+      a cartesian closed category. In this paper we show that the computational
+      lambda calculus also arises naturally as the term calculus corresponding
+      (by the Curry-Howard correspondence) to a novel intuitionistic modal
+      propositional logic. We give natural deduction, sequent calculus and
+      Hilbert-style presentations of this logic and prove strong normalisation
+      and confluence results
