@@ -304,3 +304,22 @@ Papers:
       propositional logic. We give natural deduction, sequent calculus and
       Hilbert-style presentations of this logic and prove strong normalisation
       and confluence results
+  - Title: One Logic to Use them All
+    Author: Jean-Christophe Filliâtre 
+    Abstract: >
+      Deductive program verification is making fast progress these
+      days. One of the reasons is a tremendous improvement of theorem provers
+      in the last two decades. This includes various kinds of automated theorem
+      provers, such as ATP systems and SMT solvers, and interactive proof
+      assistants. Yet most tools for program verifcation are built around a
+      single theorem prover. Instead, we defend the idea that a collaborative
+      use of several provers is a key to easier and faster verification.
+      This paper introduces a logic that is designed to target a wide set of
+      theorem provers. It is an extension of First-order logic with polymorphism,
+      algebraic data types, recursive definitions, and inductive predicates. It
+      is implemented in the tool Why3, and has been successfully used in the
+      verification of many non-trivial programs.
+    Date: 2013
+    URL: https://inria.hal.science/hal-00809651/document
+
+
