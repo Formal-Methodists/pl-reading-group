@@ -6,6 +6,8 @@ Collections:
     Curator: Benjamin C. Pierce
     URL: https://www.cis.upenn.edu/~bcpierce/courses/670Fall04/GreatWorksInPL.shtml
 Papers:
+  - Title: That Asp greenberg paper
+    URL: https://dl.acm.org/doi/10.1145/3571200
   - Title: A Core Calculus for Documents
     URL: https://cs.brown.edu/~sk/Publications/Papers/Published/ck-core-calc-doc-lambda-ultimate-doc/paper.pdf
     Authors: 
