@@ -5,6 +5,9 @@ Collections:
   - Title: Great Works in Programming Languages
     Curator: Benjamin C. Pierce
     URL: https://www.cis.upenn.edu/~bcpierce/courses/670Fall04/GreatWorksInPL.shtml
+  - Title: Papers We Love
+    Curator: N. Bourbaki
+    URL: https://github.com/papers-we-love/papers-we-love/
 Papers:
   - Title: That Asp greenberg paper
     URL: https://dl.acm.org/doi/10.1145/3571200
